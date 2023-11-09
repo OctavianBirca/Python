@@ -1,3 +1,10 @@
+"""
+Write a program that reads from the keyboard the year of birth of a person given in 4 digits (like 1990) and performs the following:
+Check if the entered value corresponds to the required range (only values starting from 1900 and ending with the CURRENT YEAR are allowed). If the value is outside the range - an error message is displayed, otherwise, we continue with point 2.
+Calculate the age in years and display it.
+Estimate the age in words and display both the age and a message like:
+"""
+
 # 1-3 ani - "baby"
 # 4-9 ani - "kid"
 # 10-15 ani - "teen"
