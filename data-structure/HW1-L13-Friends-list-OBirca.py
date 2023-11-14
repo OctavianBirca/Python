@@ -1,3 +1,6 @@
+# Create a list of friends using the list
+# When input Enter, end the list
+# Check if the name exists in the list
 
 
 friends = []
