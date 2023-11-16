@@ -50,14 +50,10 @@ while option != "x" :
             over = True
             hp -= 50
             h_draw -= 2
-
-
             
-
         else: 
             gmap[robo_x] = "o"
 
-    
     elif option == 'd' and robo_x < len(gmap)-1: 
         gmap[robo_x] = ' '
         robo_x += 1
@@ -66,9 +62,6 @@ while option != "x" :
             over = True
             hp -= 50
             h_draw -= 2
-
-            
-            
 
         else: 
             gmap[robo_x] = "o"
