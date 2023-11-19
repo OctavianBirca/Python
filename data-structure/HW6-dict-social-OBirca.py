@@ -24,6 +24,7 @@ while True:
     user["friends"].append(new_friend)
 
     if new_friend == "":
+        user["friends"].remove(new_friend)
 
         break  # Exit the loop if input is empty
 
@@ -52,13 +53,12 @@ elif user["rating"] >= 1000000 :
     likes = user["rating"] // 1000000
     print ("💙", str(likes) + "T" )
 
-for f in range(len(user["friends"])-1):
+
+###### friends list
+print("\n Friends:")
+
+for f in range(len(user["friends"])):
     print ("👫", user["friends"][f])
 
 print()
 
-
-
-
-
-  
