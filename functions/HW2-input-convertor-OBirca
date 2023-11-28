@@ -1,0 +1,58 @@
+from os import system
+
+   # inputInt( message )
+   # inputFloat( message )
+   # inputBoolean( message )
+option = -1
+
+def inputInt (message):
+    print(message, end=" ")
+    value = int(input(": "))
+    return value
+
+def inputFloat (message):
+    print(message, end=" ")
+    value = float(input(": "))
+    return value
+
+def inputBoolean (message):
+    print(message, end=" ")
+    value = bool(input(": "))
+    return value
+
+while option != 0:
+    system ("cls")
+    
+    print("\nConvert value to: ")
+    print("1. Integer")
+    print("2. Float")
+    print("3. Boolean")
+    print("0. Exit")
+
+    option = int(input(">>> "))
+
+    if option == 1:
+
+        val = inputInt ("enter the integer number")
+        print(val, "is", type(val))
+        out = input("Type enter to continue ")
+        if out == "":
+            continue
+    
+
+    elif option == 2:
+        val = inputFloat ("enter the float number")
+        print(val, "is", type(val))
+        out = input("Type enter to continue ")
+        if out == "":
+            continue
+    
+    elif option == 3:
+        val = inputBoolean ("enter the boolean value")
+        print(val, "is", type(val))
+        out = input("Type enter to continue ")
+        if out == "":
+            continue 
+    
+    elif option == 0:
+        break
