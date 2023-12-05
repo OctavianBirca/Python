@@ -77,7 +77,7 @@ minimum = list_min_max[0]
 maximum = list_min_max[1]
 
 print("The minimum number in the matrix is:", minimum)
-print("The minimum number in the matrix is:", maximum)
+print("The maximum number in the matrix is:", maximum)
 
 
 
