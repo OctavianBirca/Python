@@ -17,8 +17,12 @@ CREATE TABLE products (
 );
 
 ALTER TABLE "products"
-RENAME product TO name,
-RENAME id_p TO id,
+RENAME product TO name;
+
+ALTER TABLE "products"
+RENAME id_p TO id;
+
+ALTER TABLE "products"
 RENAME price TO price_id;
 
 DROP TABLE products;
